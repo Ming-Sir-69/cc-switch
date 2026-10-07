@@ -1,63 +1,63 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="readme-assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="readme-assets/header-light.svg">
-  <img alt="CC Switch · AI 工具配置管理 · ✦ EricMingle69" src="readme-assets/header-light.svg" width="100%">
+  <img alt="CC Switch · AI Tool Configuration · ✦ EricMingle69" src="readme-assets/header-light.svg" width="100%">
 </picture>
 
 <p align="center">
   <a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="PERSONAL-NOTICE.md">✦ EricMingle69</a>
 </p>
 
-这是个人维护的 fork；本页的个人页眉与导航不代表上游官方。
+This is a personally maintained fork. Its personal header and navigation do not represent the upstream project.
 
-# CC Switch · AI 工具配置管理
+# CC Switch · AI Tool Configuration
 
-集中管理 AI 编程工具的供应商、MCP、Skills 与提示词，并提供工具对应的本地路由功能。
-这是图形桌面应用，适合需要维护 Claude Code、Codex 等工具配置的用户。
+A desktop manager for AI coding-tool providers, MCP, Skills and prompts, with local routing where supported by each tool.
+For users maintaining configurations across tools such as Claude Code and Codex.
 
-本仓库是 [farion1231/cc-switch](https://github.com/farion1231/cc-switch) 的 fork。
-原项目由 **Jason Young 与上游贡献者**维护；本分支具体定制与同步策略尚待说明。
+This repository is a fork of [farion1231/cc-switch](https://github.com/farion1231/cc-switch).
+The original project is maintained by **Jason Young and upstream contributors**; this fork's customizations and synchronization strategy remain undocumented.
 
-## 从一个供应商开始
+## Start with one provider
 
-1. 从[上游 Releases](https://github.com/farion1231/cc-switch/releases)选择适合系统的应用包；此 fork 没有独立发布包记录。
-2. 按[用户手册](docs/user-manual/zh/README.md)添加第一个供应商。
-3. 核对目标工具的配置和切换方式，再启动对应工具。
-4. 配置 MCP、Skills 或提示词前，先查看相应工具支持的功能。
+1. Choose an application package for your system from [upstream Releases](https://github.com/farion1231/cc-switch/releases); this fork has no recorded independent package release.
+2. Follow [the user manual](docs/user-manual/en/README.md) to add your first provider.
+3. Check the target tool's configuration and switching behavior, then launch it.
+4. Check tool support before configuring MCP, Skills or prompts.
 
-供应商连通检查仅判断地址可达，不能替代真实模型请求或验证 Key 与模型名。
-切换后的重启要求、本地路由和功能支持因工具而异，以手册为准。
+The provider connectivity check tests address reachability; it does not make a real model request or validate the key and model name.
+Restart requirements, local routing and features vary by tool; consult the manual.
 
-## 文档入口
+## Documentation
 
-| 内容 | 入口 |
+| Content | Entry |
 | --- | --- |
-| 中文完整说明 | [README_ZH.md](README_ZH.md) |
-| 中文 / English 手册 | [中文](docs/user-manual/zh/README.md) · [English](docs/user-manual/en/README.md) |
-| 日本語 / Deutsch | [日本語](README_JA.md) · [Deutsch](README_DE.md) |
-| 版本变更 | [CHANGELOG.md](CHANGELOG.md) |
-| 安全反馈与贡献 | [SECURITY.md](SECURITY.md) · [CONTRIBUTING.md](CONTRIBUTING.md) |
+| Complete Chinese guide | [README_ZH.md](README_ZH.md) |
+| Chinese / English manuals | [中文](docs/user-manual/zh/README.md) · [English](docs/user-manual/en/README.md) |
+| Japanese / German | [日本語](README_JA.md) · [Deutsch](README_DE.md) |
+| Changes | [CHANGELOG.md](CHANGELOG.md) |
+| Security and contribution | [SECURITY.md](SECURITY.md) · [CONTRIBUTING.md](CONTRIBUTING.md) |
 
-## 从源码开发
+## Develop from source
 
-先按贡献指南准备 Node.js 20.19+/22.12+、pnpm 10、Rust 1.95 与 Tauri 2 的平台依赖。
-在仓库根目录执行：
+Follow the contribution guide for Node.js 20.19+/22.12+, pnpm 10, Rust 1.95 and Tauri 2 platform prerequisites.
+Run from the repository root:
 
 ```sh
 pnpm install
 pnpm dev
 ```
 
-本 fork 的独立构建与各平台运行状态尚未确立。
-通用功能问题走上游渠道，分支文档修改可提交[本仓库 PR](https://github.com/Ming-Sir-69/cc-switch/pulls)。
+Independent build and platform-runtime status for this fork is not established.
+Use upstream channels for general issues and [this fork's PRs](https://github.com/Ming-Sir-69/cc-switch/pulls) for branch documentation changes.
 
-## 上游与许可
+## Upstream and license
 
-[MIT License](LICENSE)，保留 **Copyright (c) 2025 Jason Young**。
-[ccswitch.io](https://ccswitch.io)是上游声明的官方站点；个人维护身份不代表官方发行或改变上游归属。
+[MIT License](LICENSE), retaining **Copyright (c) 2025 Jason Young**.
+[ccswitch.io](https://ccswitch.io) is the official website stated by upstream; a personal maintenance credit is not an official release or a change of upstream attribution.
 
 <details>
-<summary>上游 README 原文（保留作者与使用说明）</summary>
+<summary>Original upstream README (authors and usage retained)</summary>
 
 <!-- BEGIN PRESERVED UPSTREAM README -->
 <div align="center">
@@ -602,5 +602,5 @@ MIT © Jason Young
 
 ---
 
-文档维护：**✦ EricMingle69** · [Ming-Sir-69](https://github.com/Ming-Sir-69)  
-[个人标识、许可与权限说明](PERSONAL-NOTICE.md) · 明暗页眉随 GitHub 主题自动切换。
+Documentation maintained by **✦ EricMingle69** · [Ming-Sir-69](https://github.com/Ming-Sir-69)  
+[Personal identity, licensing and permissions](PERSONAL-NOTICE.md) · The header follows your GitHub theme.
