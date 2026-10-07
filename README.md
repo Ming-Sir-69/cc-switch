@@ -1,3 +1,23 @@
+## 此分支的中文入口
+
+CC Switch 是面向 AI 编程工具用户的桌面配置管理器：集中管理供应商、MCP、Skills 和提示词，并提供本地路由等功能。需要在 Claude Code、Codex 等工具间维护配置的用户，可以先阅读[中文说明](README_ZH.md)和[中文用户手册](docs/user-manual/zh/README.md)。
+
+本仓库是 [farion1231/cc-switch](https://github.com/farion1231/cc-switch) 的 fork，原项目由 Jason Young 及上游贡献者维护。此分支维护者为 [Ming-Sir-69](https://github.com/Ming-Sir-69)；分支的具体定制内容和与上游的同步策略尚待说明。
+
+| 目的 | 建议入口 |
+| --- | --- |
+| 下载桌面应用 | [上游 Releases](https://github.com/farion1231/cc-switch/releases)；此 fork 尚未观察到独立发布包 |
+| 安装后配置第一个供应商 | [快速开始](#quick-start) · [中文用户手册](docs/user-manual/zh/README.md) |
+| 从源码开发 | [贡献指南](CONTRIBUTING.md)，先核对 Node.js、pnpm、Rust 和 Tauri 平台依赖；`pnpm install` 后以 `pnpm dev` 启动开发模式 |
+| 查支持工具与功能边界 | [功能矩阵](#supported-features-by-tool) · [常见问题](#faq) |
+| 提交问题或改进 | 文档改进可提交[本仓库 Pull Request](https://github.com/Ming-Sir-69/cc-switch/pulls)；通用功能问题按[上游贡献指南](CONTRIBUTING.md)参与 |
+
+这是需要图形桌面的应用，各工具的配置方式与可用功能不同；例如切换后是否需要重启、哪些工具支持本地路由，应以对应手册与功能矩阵为准。此 fork 的构建与各平台运行情况尚未独立验证。
+
+项目沿用 [MIT License](LICENSE)，保留 **Copyright (c) 2025 Jason Young** 及上游署名。下方完整保留此 fork 当前的英文项目说明，其他语言文档继续通过原有链接访问。
+
+---
+
 <div align="center">
 
 # CC Switch
